@@ -11,7 +11,7 @@ public class Main {
   public static void main(String[] args) throws Exception {
 
     //GET DOCUMENT
-    Document document = UtilXML.readXMLFromFile(fileXMLInput);
+    Document document = UtilXML.fileToDocument(fileXMLInput);
 
     //GET NAME
     Node     nameNode = document.getElementsByTagName("name").item(0);

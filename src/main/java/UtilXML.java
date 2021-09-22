@@ -5,10 +5,10 @@ import java.io.InputStream;
 public class UtilXML {
 
   //================================================================================
-  // READ XML FROM FILE
+  // FILE TO DOCUMENT
   //================================================================================
-  // Document document = readXMLFromFile(fileXMLInput);
-  public static Document readXMLFromFile(String fileName) throws Exception {
+  // Document document = fileToDocument(fileName);
+  public static Document fileToDocument(String fileName) throws Exception {
 
     //OPEN FILE FOR READING
     InputStream            inputStream     = UtilXML.class.getResourceAsStream(fileName);
